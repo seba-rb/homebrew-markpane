@@ -2,7 +2,7 @@ class Markpane < Formula
   desc "Markpane CLI: smart views, frontmatter queries, and Agent Briefs from the terminal"
   homepage "https://markpane.com"
   url "https://markpane.com/downloads/markpane-cli-0.1.0.zip"
-  sha256 "REPLACE_WITH_SHA256_AFTER_NOTARIZED_ZIP"
+  sha256 "b628522eaca1d77813542ee9c7429232cbe867b67ad4fc56b09536b022b04f07"
   version "0.1.0"
   license :cannot_represent
 
