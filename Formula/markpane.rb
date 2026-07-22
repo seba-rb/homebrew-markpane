@@ -6,8 +6,9 @@ class Markpane < Formula
   version "0.8.0"
   license :cannot_represent
 
-  depends_on :macos
-  depends_on macos: :sonoma
+  on_macos do
+    depends_on macos: :sonoma
+  end
 
   def install
     bin.install "markpane"
