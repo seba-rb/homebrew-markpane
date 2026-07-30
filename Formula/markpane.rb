@@ -1,9 +1,9 @@
 class Markpane < Formula
   desc "Markpane CLI: smart views, frontmatter queries, and Agent Briefs from the terminal"
   homepage "https://markpane.com"
-  url "https://markpane.com/downloads/markpane-cli-0.9.0.zip"
-  sha256 "6827925a0bdb5dfaeea8cd991623e77d6e10e5750008390644124bc6a0a8cf1a"
-  version "0.9.0"
+  url "https://markpane.com/downloads/markpane-cli-0.10.0.zip"
+  sha256 "e283f4fd7b7ea5a83e515005414207093fb5302e5515ee22d7973e0a4a30ca39"
+  version "0.10.0"
   license :cannot_represent
 
   on_macos do
@@ -23,6 +23,6 @@ class Markpane < Formula
   end
 
   test do
-    assert_match "0.6.0", shell_output("#{bin}/markpane --version")
+    assert_match version.to_s, shell_output("#{bin}/markpane --version")
   end
 end
