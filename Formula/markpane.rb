@@ -1,9 +1,9 @@
 class Markpane < Formula
   desc "Markpane CLI: smart views, frontmatter queries, and Agent Briefs from the terminal"
   homepage "https://markpane.com"
-  url "https://markpane.com/downloads/markpane-cli-0.14.0.zip"
-  sha256 "b9010990cfbc6c8ea4103975b645d92067cbbdc8ccb9d3f8a119bd3d4ef0a4d5"
-  version "0.14.0"
+  url "https://markpane.com/downloads/markpane-cli-0.15.0.zip"
+  sha256 "0cba8ad6f8689171f0d88845a4df7b3f549370944eef6d3dfc6aa6c01c57a29f"
+  version "0.15.0"
   license :cannot_represent
 
   on_macos do
